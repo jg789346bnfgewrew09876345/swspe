@@ -21,7 +21,7 @@ namespace MMF {
         /// Program entry point.
         /// </summary>
         /// <param name="args">Command line arguments.</param>
-        static unsafe void Main(string[] args) {
+        static void Main(string[] args) {
             Span<byte> asm = stackalloc byte[10] {
                 0x65, 0x48, 0x8B, 0x04, 0x25, 0x60, 0x00, 0x00, 0x00,  // MOV RAX, GS:[0x60]
                 0xC3                                                   // RET

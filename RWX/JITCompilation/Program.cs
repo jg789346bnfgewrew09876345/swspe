@@ -9,7 +9,7 @@ namespace JITCompilation {
         internal sealed class Program {
 
         /// <summary>
-        /// Used for mutual-exclusion lock. 7
+        /// Used for mutual-exclusion lock.
         /// </summary>
         private static object Mutex = new object();
 
